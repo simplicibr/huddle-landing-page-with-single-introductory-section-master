@@ -1,0 +1,66 @@
+body {
+    background-image: url(./images/bg-desktop.svg);
+    background-color: hsl(257, 40%, 49%);
+    font-family:'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+.container{
+    display: flex;
+}
+h1 {
+    color: white;
+    font-size: 2.3rem;
+
+}
+
+.texto {
+    color: white;
+    font-family: 'Poppins';
+}
+
+.register {
+    color: violet;
+    border: 10px white solid;
+    border-radius: 35%;
+    background-color: white;
+    box-shadow: 3px 3px 3px black;
+    width: 20%;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+.register:hover{
+    background-color: hsl(300, 69%, 71%);
+    color: white;
+    border-color: hsl(300, 69%, 71%);
+}
+.ilust{
+    flex: 1;
+    padding: 10px;
+    margin-top: 3%;
+    margin-right: 3%;
+    margin-left: 3%;
+}
+.escrito{
+    flex: 1;
+    padding: 10px;
+    margin-top: 8%;
+}
+.logo{
+    width: 13%;
+}
+.icons{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+.icons i{
+    color: white;
+    padding-right: 1%;
+}
+.icons i:hover{
+    color: hsl(300, 69%, 71%);
+}
