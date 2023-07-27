@@ -64,3 +64,44 @@ h1 {
 .icons i:hover{
     color: hsl(300, 69%, 71%);
 }
+@media(max-width:400px){
+    .logo{
+        max-width: 100%;
+        width: 30%;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .escrito{
+        max-width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 5%;
+    }
+    .escrito h1{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .escrito .texto{
+        text-align: center;
+    }
+    .ilust img{
+        max-width: 100%;
+        height: auto;
+    }
+    .register{
+        width: 50%;
+        margin-bottom: 5%;
+    }
+    .icons{
+        max-width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
